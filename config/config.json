@@ -1,0 +1,20 @@
+{
+  "development": {
+    "url": "postgres://oqapjimn:pN-uHq7LXCY-4XueRy-tBu6uem-b9KGb@lucky.db.elephantsql.com/oqapjimn",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
