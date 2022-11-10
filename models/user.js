@@ -8,7 +8,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      user.hasOne(models.todolist, { foreignKey: "todolistId" });
+      user.hasOne(models.todolist);
     }
   }
   user.init(
